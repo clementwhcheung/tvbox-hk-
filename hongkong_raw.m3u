@@ -1,0 +1,89 @@
+#EXTM3U x-tvg-url="https://epg.hklive.tv"
+# Consolidated Hong Kong TV raw playlist (public/free & community sources)
+# NOTE: This file combines official public RTHK streams, user-provided links, and community-discovered links for Hong Kong channels.
+# Many TVB/ViuTV links are unofficial and may be geo-restricted, temporary, or require special headers. Use only for channels you are authorized to view.
+
+# ----------------------
+# RTHK (official Akamai HLS examples)
+# ----------------------
+#EXTINF:-1 tvg-id="RTHK31" tvg-name="港台電視31" group-title="RTHK",港台電視31
+https://rthktv31-live.akamaized.net/hls/live/2036818/RTHKTV31/master.m3u8
+#EXTINF:-1 tvg-id="RTHK31_fb" tvg-name="港台電視31 (fallback)" group-title="RTHK",港台電視31 (fallback)
+https://rthklive1-lh.akamaihd.net/i/rthk31_1@167495/master.m3u8
+
+#EXTINF:-1 tvg-id="RTHK32" tvg-name="港台電視32" group-title="RTHK",港台電視32
+https://rthktv32-live.akamaized.net/hls/live/2036819/RTHKTV32/master.m3u8
+#EXTINF:-1 tvg-id="RTHK32_fb" tvg-name="港台電視32 (fallback)" group-title="RTHK",港台電視32 (fallback)
+https://rthklive2-lh.akamaihd.net/i/rthk32_1@168450/master.m3u8
+
+#EXTINF:-1 tvg-id="RTHK33" tvg-name="港台電視33" group-title="RTHK",港台電視33
+https://rthktv33-live.akamaized.net/hls/live/2101641/RTHKTV33/master.m3u8
+#EXTINF:-1 tvg-id="RTHK34" tvg-name="港台電視34" group-title="RTHK",港台電視34
+https://rthktv34-live.akamaized.net/hls/live/2101642/RTHKTV34/master.m3u8
+#EXTINF:-1 tvg-id="RTHK35" tvg-name="港台電視35" group-title="RTHK",港台電視35
+https://rthktv35-live.akamaized.net/hls/live/2101643/RTHKTV35/master.m3u8
+#EXTINF:-1 tvg-id="RTHK36" tvg-name="港台電視36" group-title="RTHK",港台電視36
+https://rthktv36-live.akamaized.net/hls/live/2112176/RTHKTV36/master.m3u8
+
+# ----------------------
+# TVB (community / unofficial candidates) — may be geo-restricted or unstable
+# ----------------------
+#EXTINF:-1 tvg-id="TVB_Jade_edge" tvg-name="翡翠台 (edge candidate)" group-title="TVB",翡翠台
+https://edge6a.v2h-cdn.com/jade/jade.stream/chunklist.m3u8
+#EXTINF:-1 tvg-id="TVB_Jade_1" tvg-name="翡翠台 (candidate 1)" group-title="TVB",翡翠台
+http://122.152.202.33/s/81a8a44f/index.m3u8?id=53
+#EXTINF:-1 tvg-id="TVB_Jade_user" tvg-name="翡翠台 (user source)" group-title="TVB",翡翠台
+http://113.64.147.40:808/hls/67/index.m3u8
+#EXTINF:-1 tvg-id="TVB_Jade_jd" tvg-name="翡翠台 (jdshipin)" group-title="TVB",翡翠台
+http://r.jdshipin.com/62WM7
+#EXTINF:-1 tvg-id="TVB_Jade_host" tvg-name="翡翠台 (hosted)" group-title="TVB",翡翠台
+http://162.19.247.76:22222/live/tvbfc/index.m3u8
+
+# TVB J2 (candidate)
+#EXTINF:-1 tvg-id="TVB_J2" tvg-name="J2" group-title="TVB",J2
+http://162.19.247.76:22222/live/tvbj2/index.m3u8
+
+# TVB News (candidate)
+#EXTINF:-1 tvg-id="TVB_News" tvg-name="无线新闻" group-title="TVB",无线新闻
+http://162.19.247.76:22222/live/tvbnews/index.m3u8
+
+# ----------------------
+# ViuTV / HK Open TV / Other Hong Kong channels (community sources)
+# ----------------------
+#EXTINF:-1 tvg-id="ViuTV_placeholder" tvg-name="ViuTV (placeholder)" group-title="ViuTV",ViuTV
+# Official public m3u8 not published; community links are often unofficial and may be removed.
+# You can try community playlists like iptv-org's Hong Kong collection: https://iptv-org.github.io/iptv/countries/hk.m3u
+
+# 香港開電視 (user-provided)
+#EXTINF:-1 tvg-id="HK_OpenTV" tvg-name="香港开电视" group-title="HK",香港开电视
+https://php.52sf.ga/@Curly_MouseIPTV-Potato.php?tid=1&id=23
+
+# ----------------------
+# Other channels (user-provided / regional)
+# ----------------------
+#EXTINF:-1 tvg-id="CCTV13" tvg-name="CCTV-13 新闻" group-title="China",CCTV-13
+http://yd-m-l.cztv.com/channels/lantian/channel18/1080p.m3u8
+#EXTINF:-1 tvg-id="GuangdongNews" tvg-name="广东新闻" group-title="China",广东新闻
+http://113.101.124.12:808/hls/20/index.m3u8
+#EXTINF:-1 tvg-id="NHK_ZH" tvg-name="NHK (Chinese)" group-title="International",NHK (Chinese)
+https://nhkw-zh-hlscomp.akamaized.net/8thz5iufork8wjip/playlist.m3u8
+
+# 凤凰 (user-provided)
+#EXTINF:-1 tvg-id="Phoenix_CN" tvg-name="凤凰中文" group-title="Phoenix",凤凰中文
+http://162.19.247.76:22222/live/fenghuangweishi/index.m3u8
+#EXTINF:-1 tvg-id="Phoenix_Info" tvg-name="凤凰资讯" group-title="Phoenix",凤凰资讯
+http://162.19.247.76:22222/live/fenghuangzhixun/index.m3u8
+#EXTINF:-1 tvg-id="Phoenix_HK" tvg-name="凤凰香港" group-title="Phoenix",凤凰香港
+http://162.19.247.76:22222/live/fenghuangxianggang/index.m3u8
+
+# 香港卫视
+#EXTINF:-1 tvg-id="HKSTV" tvg-name="香港卫视" group-title="HK",香港卫视
+http://zhibo.hkstv.tv/livestream/mutfysrq/playlist.m3u8
+
+# ----------------------
+# End of consolidated list
+# ----------------------
+# Notes:
+# - Many TVB/ViuTV URLs are unofficial; reliability varies. If a stream returns 403 or doesn't play, it may be geo-restricted or require specific headers (Referer/User-Agent/Cookie).
+# - For devices in restricted regions, use a Hong Kong VPN or a router-level VPN so the TVBox traffic exits in Hong Kong.
+# - If you want, I can add ghproxy fallback links or generate a jsDelivr link for this file after committing.
