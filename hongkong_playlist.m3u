@@ -1,37 +1,132 @@
 #EXTM3U x-tvg-url="https://epg.hklive.tv"
 
-# RTHK（官方 / Akamai CDN 链接，注意可能受地域限制）
-#EXTINF:-1 tvg-id="31" tvg-name="港台電視31" tvg-logo="https://live.hkanime.com.hk/png_logo/31.png" group-title="[RTHK] 香港電台",港台電視31
-https://rthktv31-live.akamaized.net/hls/live/2036818/RTHKTV31/master.m3u8
-#EXTINF:-1 tvg-id="31-fallback" tvg-name="港台電視31 (fallback)" tvg-logo="https://live.hkanime.com.hk/png_logo/31.png" group-title="[RTHK] 香港電台",港台電視31 (fallback)
-https://rthklive1-lh.akamaihd.net/i/rthk31_1@167495/master.m3u8
+# Imported playlist provided by user
+# Note: These are user-supplied stream URLs; availability and legality are not guaranteed.
 
-#EXTINF:-1 tvg-id="32" tvg-name="港台電視32" tvg-logo="https://live.hkanime.com.hk/png_logo/32.png" group-title="[RTHK] 香港電台",港台電視32
-https://rthktv32-live.akamaized.net/hls/live/2036819/RTHKTV32/master.m3u8
-#EXTINF:-1 tvg-id="32-fallback" tvg-name="港台電視32 (fallback)" tvg-logo="https://live.hkanime.com.hk/png_logo/32.png" group-title="[RTHK] 香港電台",港台電視32 (fallback)
-https://rthklive2-lh.akamaihd.net/i/rthk32_1@168450/master.m3u8
+# CCTV-13 新闻
+#EXTINF:-1,CCTV-13新聞
+http://yd-m-l.cztv.com/channels/lantian/channel18/1080p.m3u8
 
-#EXTINF:-1 tvg-id="33" tvg-name="港台電視33" tvg-logo="https://live.hkanime.com.hk/png_logo/33.png" group-title="[RTHK] 香港電台",港台電視33
-https://rthktv33-live.akamaized.net/hls/live/2101641/RTHKTV33/master.m3u8
+# 香港開電視
+#EXTINF:-1,香港開電視
+https://php.52sf.ga/@Curly_MouseIPTV-Potato.php?tid=1&id=23
 
-#EXTINF:-1 tvg-id="34" tvg-name="港台電視34" tvg-logo="https://live.hkanime.com.hk/png_logo/34.png" group-title="[RTHK] 香港電台",港台電視34
-https://rthktv34-live.akamaized.net/hls/live/2101642/RTHKTV34/master.m3u8
+# 翡翠台 (multiple sources)
+#EXTINF:-1,翡翠台 (1)
+http://113.64.147.40:808/hls/67/index.m3u8
+#EXTINF:-1,翡翠台 (2)
+https://cdn.hklive.tv/xxxx/81/index.m3u8
+#EXTINF:-1,翡翠台 (3)
+http://dadiao.akjp.cn:1936/0.m3u8
+#EXTINF:-1,翡翠台 (4)
+http://2022.stream-link.org/live/131217689
+#EXTINF:-1,翡翠台 (5)
+https://pull-l3-cny.douyincdn.com/live/stream-19882782023022818478.m3u8
+#EXTINF:-1,翡翠台 (6)
+http://r.jdshipin.com/62WM7
 
-#EXTINF:-1 tvg-id="35" tvg-name="港台電視35" tvg-logo="https://live.hkanime.com.hk/png_logo/35.png" group-title="[RTHK] 香港電台",港台電視35
-https://rthktv35-live.akamaized.net/hls/live/2101643/RTHKTV35/master.m3u8
+# 明珠台
+#EXTINF:-1,明珠台
+https://pull-l3-cny.douyincdn.com/live/stream-19882782022122523487.m3u8
 
-#EXTINF:-1 tvg-id="36" tvg-name="港台電視36" tvg-logo="https://live.hkanime.com.hk/png_logo/36.png" group-title="[RTHK] 香港電台",港台電視36
-https://rthktv36-live.akamaized.net/hls/live/2112176/RTHKTV36/master.m3u8
+# J2 台
+#EXTINF:-1,J2台
+https://php.52sf.ga/@Curly_MouseIPTV-Potato.php?tid=1&id=6
 
-# TVB / ViuTV 等（官方公开 m3u8 通常不可得）
-# 以下为占位说明：TVB / ViuTV 官方往往不公开长期稳定的 m3u8 链接，社区可能存在非官方流，会随时失效或受版权限制。
-# 若你有合法官方来源或私有授权源，请提供真实单频道 m3u8，我会替换到此处。
+# 無綫新聞台
+#EXTINF:-1,無綫新聞台 (1)
+https://php.52sf.ga/@Curly_MouseIPTV-Potato.php?tid=1&id=20
+#EXTINF:-1,無綫新聞台 (2)
+https://cdn.hklive.tv/xxxx/83/index.m3u8
+#EXTINF:-1,無綫新聞台 (3)
+http://ye23.win/iptv/tvb.php?id=1
 
-# 示例：如果找到社区单频道流，可替换如下（示例为占位 / 可能失效）：
-#EXTINF:-1 tvg-id="81" tvg-name="翡翠台" tvg-logo="https://live.hkanime.com.hk/png_logo/81.png" group-title="[TVB] 電視廣播",翡翠台
-#https://example-unofficial-cdn.example/hls/81/index.m3u8
+# 無綫財經資訊台
+#EXTINF:-1,無綫財經資訊台 (1)
+https://php.52sf.ga/@Curly_MouseIPTV-Potato.php?tid=1&id=19
+#EXTINF:-1,無綫財經資訊台 (2)
+http://ye23.win/iptv/tvb.php?id=2
 
-# 说明与来源：
-# - RTHK 链接来自 iptv-org 项目（https://github.com/iptv-org/iptv/blob/master/streams/hk.m3u）中列出的 Akamai CDN 地址。
-# - 若在你的地区无法播放 RTHK 链接，请使用香港出口的网络或 VPN。
-# - 我只使用公开 / 已知社区来源；未包含任何付费/DRM 绕过方法。
+# 香港衛視
+#EXTINF:-1,香港衛視
+http://zhibo.hkstv.tv/livestream/mutfysrq/playlist.m3u8
+
+# 广东新闻
+#EXTINF:-1,广东新闻
+http://113.101.124.12:808/hls/20/index.m3u8
+
+# 日本 NHK（华语）
+#EXTINF:-1,NHK (Chinese)
+https://nhkw-zh-hlscomp.akamaized.net/8thz5iufork8wjip/playlist.m3u8
+
+# 凤凰 (多条)
+#EXTINF:-1,凤凰中文 (1)
+http://162.19.247.76:22222/live/fenghuangweishi/index.m3u8
+#EXTINF:-1,凤凰资讯 (1)
+http://162.19.247.76:22222/live/fenghuangzhixun/index.m3u8
+#EXTINF:-1,凤凰香港 (1)
+http://162.19.247.76:22222/live/fenghuangxianggang/index.m3u8
+
+# 中天及台湾频道集合 (via provided host)
+#EXTINF:-1,中天娱乐台
+http://162.19.247.76:22222/live/ztyl/index.m3u8
+#EXTINF:-1,中天亚洲台
+http://162.19.247.76:22222/live/ztyz/index.m3u8
+#EXTINF:-1,翡翠台 (from host)
+http://162.19.247.76:22222/live/tvbfc/index.m3u8
+#EXTINF:-1,J2 (from host)
+http://162.19.247.76:22222/live/tvbj2/index.m3u8
+#EXTINF:-1,TVB J5
+http://162.19.247.76:22222/live/tvbj5/index.m3u8
+#EXTINF:-1,三立台湾
+http://162.19.247.76:22222/live/uch5/index.m3u8
+#EXTINF:-1,三立都会台
+http://162.19.247.76:22222/live/uch6/index.m3u8
+#EXTINF:-1,台视
+http://162.19.247.76:22222/live/taishi/index.m3u8
+#EXTINF:-1,中视
+http://162.19.247.76:22222/live/zhongshi/index.m3u8
+#EXTINF:-1,天映经典台
+http://162.19.247.76:22222/live/tyjd/index.m3u8
+#EXTINF:-1,东森戏剧台
+http://162.19.247.76:22222/live/dsxj/index.m3u8
+#EXTINF:-1,东森电影台
+http://162.19.247.76:22222/live/dsdyt/index.m3u8
+#EXTINF:-1,东森洋片台
+http://162.19.247.76:22222/live/dsypt/index.m3u8
+#EXTINF:-1,欢喜台
+http://162.19.247.76:22222/live/uch3/index.m3u8
+#EXTINF:-1,AOD
+http://162.19.247.76:22222/live/uch7/index.m3u8
+#EXTINF:-1,华视
+http://162.19.247.76:22222/live/huashi/index.m3u8
+#EXTINF:-1,无线新闻 (from host)
+http://162.19.247.76:22222/live/tvbnews/index.m3u8
+
+# 凤凰多协议与时移
+#EXTINF:-1,凤凰中文 (timeshift)
+http://playtimeshift-live.ifeng.com/timeshift/live/06OLEGEGM4G/timeshift.m3u8
+#EXTINF:-1,凤凰资讯 (timeshift)
+http://playtimeshift-live.ifeng.com/timeshift/live/06OLEEWQKN4/timeshift.m3u8
+
+# 凤凰 (FLV/RTMP fallback references)
+#EXTINF:-1,凤凰中文 (flv)
+http://115.231.143.224/playtv-live.ifeng.com/live/06OLEGEGM4G.flv
+#EXTINF:-1,凤凰资讯 (flv)
+http://115.231.143.224/playtv-live.ifeng.com/live/06OLEEWQKN4.flv
+#EXTINF:-1,凤凰中文 (rtmp)
+rtmp://115.231.143.224/playtv-live.ifeng.com/live/06OLEGEGM4G
+#EXTINF:-1,凤凰资讯 (rtmp)
+rtmp://115.231.143.224/playtv-live.ifeng.com/live/06OLEEWQKN4
+
+# 凤凰 IPv6 示例
+#EXTINF:-1,凤凰中文 (IPv6)
+http://[2409:8087:3869:8021:1001::e5]:6610/PLTV/88888910/224/3221226248/index.m3u8
+#EXTINF:-1,凤凰资讯 (IPv6)
+http://[2409:8087:3869:8021:1001::e5]:6610/PLTV/88888910/224/3221226274/index.m3u8
+#EXTINF:-1,凤凰香港 (IPv6)
+http://[2409:8087:3869:8021:1001::e5]:6610/PLTV/88888910/224/3221226251/index.m3u8
+
+# 香港卫视
+#EXTINF:-1,香港卫视
+http://zhibo.hkstv.tv/livestream/mutfysrq/playlist.m3u8
